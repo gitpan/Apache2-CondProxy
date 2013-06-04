@@ -1,10 +1,11 @@
 {
    "abstract" : "This module implements logic for a conditional reverse proxy.",
    "author" : [
-      "Dorian Taylor, C<< <dorian at cpan.org> >>, Dorian Taylor <dorian@cpan.org>"
+      "Dorian Taylor, C<< <dorian at cpan.org> >>",
+      "Dorian Taylor <dorian@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "apache_2_0"
    ],
@@ -15,29 +16,35 @@
    "name" : "Apache2-CondProxy",
    "no_index" : {
       "directory" : [
-         "t",
-         "inc"
+         "inc",
+         "t"
       ]
    },
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Apache::Test" : 0,
+            "Apache::Test" : "0",
             "ExtUtils::MakeMaker" : "6.59",
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "6.59"
          }
       },
       "runtime" : {
          "requires" : {
+            "Path::Class" : "0",
             "perl" : "5.010"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "license" : [
+         "http://apache.org/licenses/LICENSE-2.0"
+      ]
+   },
+   "version" : "0.02"
 }
