@@ -22,9 +22,9 @@ no_index:
     - inc
     - t
 requires:
-  Path::Class: 0
+  Path::Class: 0.24
   mod_perl2: 0
   perl: 5.10.0
 resources:
   license: http://apache.org/licenses/LICENSE-2.0
-version: 0.04
+version: 0.10
